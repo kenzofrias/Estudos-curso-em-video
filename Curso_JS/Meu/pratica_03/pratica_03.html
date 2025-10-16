@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body{
+            background: rgb(8, 8, 68);
+            color: white;
+        }
+        h1{
+            color: yellow;
+        }
+        p#p1{
+            color: green;
+        }
+        p#p2{
+            color: rgb(193, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é estrangeiro? Descubra.</h1>
+    Eu sou do país <input type="text" id = "pais">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id = "res"></div>
+
+    <script>
+        function calcular(){
+            var pai = document.querySelector('input#pais')
+            var res = document.querySelector('div#res')
+            var pais = pai.value 
+            res.innerHTML = `<p>Seu país é o ${pais}.</p>`
+
+            if (pais == 'Brasil'){ //condição composta
+                res.innerHTML += `<p id = "p1"> Você é BRASILEIRO! </p>`
+            }else{
+                res.innerHTML += `<p id = "p2"> Você é ESTRANGEIRO! </p>`
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id = "entrada">
+            <p>
+                Número: <input type="number" name="txtn" id="txtn">
+            </p>
+            <p>
+                Operação ( +, -, x, / ): <input type="text" name="txto" id="txto">
+                <input type="button" value="Gerar Tabuada" id = "tab" onclick="gerador()">
+            </p>
+        </div>
+        <div id = "saida">
+            <select name="txtt" id="txtt" size = "10">
+                <option value="">Digite um número e escolha uma operação acima.</option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Kenzofrias</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

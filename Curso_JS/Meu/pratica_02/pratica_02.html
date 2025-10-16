@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Média</title>
+    <style>
+        body{
+            background: rgb(2, 2, 55);
+            color: white;
+            font: normal 16pt TimesNewRoman;
+        }
+        h1{
+            color: rgb(225, 225, 5);
+        }
+        div#res{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando Média</h1>
+    <input type="number" id = "n1"> +
+    <input type="number" id = "n2">
+    <input type="button" value = "Calcular" onclick="somar()">
+    <div id = "res">RESULTADO</div>
+    <script>
+        function somar(){
+            var num1 = document.querySelector('input#n1')
+            var num2 = document.querySelector('input#n2')
+            var res = document.querySelector('div#res')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var s = (n1 + n2)/2
+            res.innerHTML = `A média de suas notas é <strong>${s}</strong>.`
+        }
+    </script>
+</body>
+</html>

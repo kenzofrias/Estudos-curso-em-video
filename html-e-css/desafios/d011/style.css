@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-color: azure;
+    background-image: url('media/espaco.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div{
+    height: 50vh;
+    width: 50vh;
+    top: 25%;
+    position: absolute;
+    text-align: center;
+}
+div img{
+    height: 50%;
+    width: 50%;
+}

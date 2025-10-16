@@ -1,0 +1,28 @@
+body{
+    background: rgb(0, 110, 137);
+    font: normal 12pt Arial;
+    color: black;
+}
+header{
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    color: black;
+
+    #pp{
+        text-align: center;
+        #foto{
+            margin-top: 10px;
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
