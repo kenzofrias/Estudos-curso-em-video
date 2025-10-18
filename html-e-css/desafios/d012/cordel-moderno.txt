@@ -1,6 +1,6 @@
 Cordel Moderno
-Por Milton Duarte
-[SITE: https://www.recantodasletras.com.br/poesias/3186743]
+        Por Milton Duarte
+        [SITE: https://www.recantodasletras.com.br/poesias/3186743] 
 
 Estou ficando cansado
 Da tal tecnologia
@@ -65,3 +65,4 @@ Se quiser, faça esse teste
 Dois pontos são dois joelhos
 Seus lábios são aparelhos
 Deixe que Deus interprete.
+
